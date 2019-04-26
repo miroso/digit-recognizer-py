@@ -1,4 +1,4 @@
-#!/Users/miroslav/anaconda3/bin/python
+#!~/AppData/Local/Continuum/anaconda3/envs/env_spark/python.exe
 import csv
 import pandas
 import matplotlib.pyplot as plt
@@ -18,11 +18,19 @@ plt.imshow(num)
 
 
 
+def load_dataset(dataset_path):
+  print('todo')
 
+
+def main():
+
+  # argparser
+
+  data = load_dataset
 
 
 if __name__ == "__main__":
-    main()
+  main()
 
 
 #import tensorflow as tf
